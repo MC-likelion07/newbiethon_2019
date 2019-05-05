@@ -1,0 +1,59 @@
+@font-face { font-family: 'NanumSquareRound'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body {
+  height: 100vh;
+  background: url('/static/firstapp/back.jpg') no-repeat center;
+  background-size: cover;
+  font-family: 'NanumSquareRound';
+}
+
+.b{
+            background-image: url('/static/firstapp/back.jpg');
+            width: 100%;
+            height: 500px; 
+        }
+
+        .container {
+          width: 100%;
+          height: 100vh;
+        }
+
+        .container .btn-wrap {
+          padding-top: 65vh;
+          text-align: center;
+        }
+
+
+      h1,
+      p {
+        text-align: center;
+      }
+      p {
+        display: inline;
+      }
+      .btn {
+        font-size: 25px;
+        border-radius: 30px;
+        background-color: rgb(74, 171, 237);
+        width: 100px;
+        height: 30px;
+        padding: 20px;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .btn+.btn {
+        margin-left: 75px;
+      }
+      a:hover {
+        background-color: rgb(186, 187, 212);
+      }
+    .left-box {
+      background: white;
+      float: left;
+      width: 50%;
+      }
+    .right-box {
+    background: blue;
+    float: right;
+    width: 50%;
+    }
